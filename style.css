@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  background-image: url(background.png);
+  position: relative;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.expanded {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 40px;
+}
+
+.blue-bg {
+  background-color: #3877ee;
+}
+.green-bg {
+  background-color: #6abf4b;
+}
+
+.hidden {
+  display: none;
+}
+
+#house1 {
+  position: absolute;
+  top: 205px;
+  left: 1233px;
+}
+#house2 {
+  position: absolute;
+  top: 255px;
+  left: 650px;
+}
+
+#terminal1 {
+  position: absolute;
+  top: 340px;
+  left: 1076px;
+}
+#terminal2 {
+  position: absolute;
+  top: 380px;
+  left: 1260px;
+}
+
+#stadium1 {
+  position: absolute;
+  top: 400px;
+  left: 750px;
+}
+
+#stadium2 {
+  position: absolute;
+  top: 500px;
+  left: 1025px;
+}
+
+#university1 {
+  position: absolute;
+  top: 520px;
+  left: 1200px;
+}
+
+#university2 {
+  position: absolute;
+  top: 550px;
+  left: 1380px;
+}
+
+#promenade {
+  position: absolute;
+  top: 550px;
+  left: 600px;
+}
+
+#hotel {
+  position: absolute;
+  top: 620px;
+  left: 1050px;
+}
