@@ -29,7 +29,6 @@ body::before {
   background: none;
   font-family: Arial, sans-serif;
   color: #fff;
-  z-index: 50;
 }
 
 .expanded {
